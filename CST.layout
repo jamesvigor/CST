@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="autoreferencepoints.c" open="0" top="0" tabpos="7">
+		<Cursor position="2659" topLine="17" />
+	</File>
+	<File name="autoreferencepoints.h" open="0" top="0" tabpos="8">
+		<Cursor position="134" topLine="0" />
+	</File>
+	<File name="callbacks.c" open="0" top="0" tabpos="5">
+		<Cursor position="494" topLine="26" />
+	</File>
+	<File name="callbacks.h" open="0" top="0" tabpos="9">
+		<Cursor position="21" topLine="0" />
+	</File>
+	<File name="constants.h" open="1" top="0" tabpos="6">
+		<Cursor position="400" topLine="0" />
+	</File>
+	<File name="doerrors.c" open="0" top="0" tabpos="6">
+		<Cursor position="2483" topLine="9" />
+	</File>
+	<File name="doerrors.h" open="0" top="0" tabpos="0">
+		<Cursor position="72" topLine="0" />
+	</File>
+	<File name="guielements.h" open="1" top="0" tabpos="7">
+		<Cursor position="312" topLine="9" />
+	</File>
+	<File name="imagecapture.c" open="0" top="0" tabpos="1">
+		<Cursor position="3946" topLine="0" />
+	</File>
+	<File name="imagecapture.h" open="0" top="0" tabpos="0">
+		<Cursor position="131" topLine="0" />
+	</File>
+	<File name="imageload.c" open="0" top="0" tabpos="5">
+		<Cursor position="688" topLine="48" />
+	</File>
+	<File name="imageload.h" open="0" top="0" tabpos="5">
+		<Cursor position="64" topLine="0" />
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="9">
+		<Cursor position="363" topLine="329" />
+	</File>
+	<File name="mapstrain.c" open="1" top="0" tabpos="8">
+		<Cursor position="18071" topLine="0" />
+	</File>
+	<File name="mapstrain.h" open="0" top="0" tabpos="7">
+		<Cursor position="116" topLine="0" />
+	</File>
+	<File name="measurestrain.c" open="1" top="0" tabpos="4">
+		<Cursor position="22262" topLine="498" />
+	</File>
+	<File name="measurestrain.h" open="0" top="0" tabpos="0">
+		<Cursor position="132" topLine="0" />
+	</File>
+	<File name="src/mapdeformation.c" open="1" top="1" tabpos="3">
+		<Cursor position="4669" topLine="127" />
+	</File>
+	<File name="src/mapdeformation.h" open="1" top="0" tabpos="5">
+		<Cursor position="26" topLine="0" />
+	</File>
+	<File name="src/ui/if_mapdeformation.c" open="1" top="0" tabpos="1">
+		<Cursor position="191" topLine="247" />
+	</File>
+	<File name="src/ui/if_mapdeformation.h" open="1" top="0" tabpos="2">
+		<Cursor position="29" topLine="0" />
+	</File>
+	<File name="strainarea.c" open="0" top="0" tabpos="4">
+		<Cursor position="6038" topLine="117" />
+	</File>
+	<File name="strainarea.h" open="0" top="0" tabpos="0">
+		<Cursor position="98" topLine="0" />
+	</File>
+	<File name="strainoutputconfig.c" open="0" top="0" tabpos="4">
+		<Cursor position="127" topLine="102" />
+	</File>
+	<File name="strainoutputconfig.h" open="0" top="0" tabpos="0">
+		<Cursor position="30" topLine="0" />
+	</File>
+	<File name="version.h" open="0" top="0" tabpos="6">
+		<Cursor position="59" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CST" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CST" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="`pkg-config --cflags gtk+-2.0`" />
+					<Add option="`pkg-config --cflags gdl-2.0`" />
+					<Add option="`pkg-config --cflags libgphoto2`" />
+				</Compiler>
+				<Linker>
+					<Add option="`pkg-config --libs gtk+-2.0`" />
+					<Add option="`pkg-config --libs gdl-2.0`" />
+					<Add option="`pkg-config --libs opencv`" />
+					<Add option="`pkg-config --libs gphoto2`" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CST" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`pkg-config --cflags gtk+-2.0`" />
+			<Add option="`pkg-config --cflags gdl-2.0`" />
+			<Add option="-I/usr/include/gphoto2 -I/usr/include/libexif" />
+			<Add option="`pkg-config --cflags gtkimageview`" />
+		</Compiler>
+		<Linker>
+			<Add option="`pkg-config --libs gtk+-2.0`" />
+			<Add option="`pkg-config --libs gdl-2.0`" />
+			<Add option="`pkg-config --libs opencv`" />
+			<Add option="-lgphoto2 -lgphoto2_port -lm -lexif" />
+			<Add option="`pkg-config --libs gtkimageview`" />
+		</Linker>
+		<Unit filename="autoreferencepoints.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="autoreferencepoints.h" />
+		<Unit filename="callbacks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="callbacks.h" />
+		<Unit filename="constants.h" />
+		<Unit filename="doerrors.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="doerrors.h" />
+		<Unit filename="guielements.h" />
+		<Unit filename="imagecapture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="imagecapture.h" />
+		<Unit filename="imageload.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="imageload.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mapstrain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mapstrain.h" />
+		<Unit filename="measurestrain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="measurestrain.h" />
+		<Unit filename="src/mapdeformation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mapdeformation.h" />
+		<Unit filename="src/ui/if_mapdeformation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ui/if_mapdeformation.h" />
+		<Unit filename="strainarea.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="strainarea.h" />
+		<Unit filename="strainoutputconfig.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="strainoutputconfig.h" />
+		<Unit filename="version.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="1" date_declarations="1" do_auto_increment="0" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="version.h" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
+			</AutoVersioning>
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
